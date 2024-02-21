@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-pink-900 font-sans">
+
+    <!-- En-tête -->
+    <header class="bg-pink-900 p-4 w-full">
+        <div class="container bg-pink-900 mx-auto flex items-center justify-between w-full">
+            <h1 class="text-white text-2xl font-bold">Ndeye Absa Fall</h1>
+            <nav class="space-x-4 ">
+                <a href="#" class="text-white hover:text-black">Accueil</a>
+                <a href="#" class="text-white  hover:text-black">Projets</a>
+                <a href="#" class="text-white  hover:text-black">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section héros -->
+    <section class="bg-cover bg-center h-screen flex items-center" style="background-image:url('https://cdn.pixabay.com/photo/2016/06/25/13/00/purse-1478852_1280.jpg');">
+        <div class="text-pink-700 text-center">
+            <h2 class="text-4xl font-bold mb-4">Bienvenue sur mon Portfolio</h2>
+            <p class="text-lg"> Etant ètudiante en Dèveloppement d'application Web je cherche à accroitre mes chances et compètences dans le milieu profèsionnel.Je suis une personne qui grace au projet que nous menions en groupe pour chaque fin de programme au cour de ma formation en Informatique,est douèe d'une capacitè à travailler en èquipes.Je suis passionné par le développement web et la création de solutions innovantes,dèvouèe et très organisèe je saurais m'adapter et apporter une valeur substantielle au sein de votre entreprise. </p>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Mes Compétences</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-pink-700 p-4 rounded shadow">
+                <h3 class="text-xl font-bold mb-2">HTML</h3>
+                <p>Maîtrise avancée de HTML5.</p>
+            </div>
+            <div class="bg-pink-700 p-4 rounded shadow">
+                <h3 class="text-xl font-bold mb-2">CSS</h3>
+                <p>Maitrise avancèe de Boostrap et Tailwind</p>
+            </div>
+            <div class="bg-pink-700 p-4 rounded shadow">
+                <h3 class="text-xl font-bold mb-2">JAVASCRIPT</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projets -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg">
+            <!-- <img src=" alt="Projet 1 > -->
+                <img src="https://i.pinimg.com/564x/26/3e/36/263e3680523a4f6cde60d8f2a33144db.jpg" alt="">
+                <h3 class="text-xl font-bold mb-2">Projet 1</h3>
+                <p>Bienvenue sur Desktop Discoveries.Votre destination incontournable site web destiné à la découverte et à l'exploration de contenus, informations, ou expériences liées à l'environnement de bureau ou d'ordinateur. Explorez notre gamme diversifiée d' ordinateur conçus pour répondre à vos besoins. Plongez dans une expérience unique alliant qualité, innovation et service exceptionnel. Notre engagement envers l'excellence vous assure une immersion totale dans le domaine du travail. Découvrez une nouvelle dimension de la Technologie avec nous. Bienvenue dans un monde où  la technologie est un prioritè. Explorez, découvrez et vivez l'essence même de DesktopDiscoveries.com</p>
+            </div>
+            <div class="bg">
+            <!-- <img src=" alt="Projet 2 > -->
+                <img src="https://media.istockphoto.com/id/1445557371/photo/development-in-central-london.jpg?s=2048x2048&w=is&k=20&c=pwO5pVZe75s31NEnAnaeKjJp1MlrQe371wXSoI-DzQA=" alt="">
+                <h3 class="text-xl font-bold mb-2">Projet 2</h3>
+                <p> skgjoidjohcdojoijgmijlvkjnjoh</p>
+            </div>
+             <div class="bg">
+ <!-- <img src=" alt="Projet 3 > -->
+     <img src="https://media.istockphoto.com/id/918365088/photo/african-american-man-browsing-work-online-using-job-search-computer-app.jpg?s=1024x1024&w=is&k=20&c=w6A_9DxiI5EIw8ol4ad0qKk0KBpd2Z-CTfhP2kc8Q34=" alt="">
+     <h3 class="text-xl font-bold mb-3">Projet 3</h3>
+     <p>zdiojiosjpohpojhpopogpoehop</p>
+ </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Contactez-moi</h2>
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label for="name" class="block text-sm font-medium text-white">Nom</label>
+                <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded">
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-white">Adresse E-mail</label>
+                <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded">
+            </div>
+            <div class="col-span-2">
+                <label for="message" class="block text-sm font-medium text-white">Message</label>
+                <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded"></textarea>
+            </div>
+            <button type="submit" class="bg-pink-700 text-white p-2 rounded">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-pink-900 text-white p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex space-x-4">
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2024 Ndeye Absa Fall. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
